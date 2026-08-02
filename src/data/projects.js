@@ -1,44 +1,20 @@
-export const categories = ['all', 'web', 'fullstack', 'auth'];
+export const categories = ['all', 'web', 'Embedded Systems'];
 
 export const projectsData = [
   {
-    id: 1,
-    title: 'BookMyShow Clone',
-    description: 'Full-stack movie ticket booking platform',
-    longDesc:
-      'A MERN stack clone of BookMyShow with movie listings, seat selection, booking history, and user authentication.',
-    tech: ['MongoDB', 'Express', 'React', 'Node.js'],
-    category: 'fullstack',
-    featured: true,
-    liveUrl: '#',
-    githubUrl: '#'
-  },
-  {
     id: 2,
-    title: 'React + Spring Boot App',
-    description: 'Full-stack application with REST APIs',
+    title: 'Line Following Robot',
+    description: 'Arduino-Based Line Following Robot',
     longDesc:
-      'A responsive web app built with React frontend and Spring Boot backend, featuring RESTful APIs, CRUD operations, and secure authentication.',
-    tech: ['React', 'Spring Boot', 'Java', 'REST API'],
-    category: 'fullstack',
+      'using Arduino Uno and IR sensors. The robot detects a black line on a white surface and adjusts motor speed to follow the path accurately.',
+    tech: ['C++','Arduino API','Embedded Programming'],
+    category: 'Embedded Systems',
     featured: true,
     liveUrl: '#',
     githubUrl: '#'
   },
   {
-    id: 3,
-    title: 'MERN Todo App',
-    description: 'Task manager with JWT auth',
-    longDesc:
-      'A full-featured todo application with user registration, login, and task management using MongoDB, Express, React, and Node.js.',
-    tech: ['MongoDB', 'Express', 'React', 'Node.js'],
-    category: 'auth',
-    featured: false,
-    liveUrl: '#',
-    githubUrl: '#'
-  },
-  {
-    id: 4,
+    id: 1,
     title: 'Portfolio Website',
     description: 'Personal developer portfolio',
     longDesc:
@@ -49,16 +25,4 @@ export const projectsData = [
     liveUrl: '#',
     githubUrl: '#'
   },
-  {
-    id: 5,
-    title: 'Habit Tracker',
-    description: 'Daily habit tracking app',
-    longDesc:
-      'A MERN-based habit tracker allowing users to create habits, track daily progress, and visualize streaks over time.',
-    tech: ['MongoDB', 'Express', 'React', 'Node.js'],
-    category: 'web',
-    featured: false,
-    liveUrl: '#',
-    githubUrl: '#'
-  }
 ];
