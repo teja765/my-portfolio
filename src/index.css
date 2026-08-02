@@ -267,8 +267,8 @@ border-color: #111827;
 
 .btn-secondary {
 background: transparent;
-color: #121212
-border-color: #1B4F72;
+color: var(--white);
+border-color: var(--white);
 }
 
 .btn-secondary:hover {
