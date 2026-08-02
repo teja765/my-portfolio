@@ -262,18 +262,18 @@ color: var(--white);
 .btn-primary:hover {
 background: transparent;
 color: var(--accent);
-border-color: var(--accent);
+border-color: #111827;
 }
 
 .btn-secondary {
 background: transparent;
-color: var(--white);
-border-color: var(--white);
+color: #121212
+border-color: #1B4F72;
 }
 
 .btn-secondary:hover {
 background: var(--white);
-color: var(--primary);
+color: #121212;
 }
 
 .filter-btn {
